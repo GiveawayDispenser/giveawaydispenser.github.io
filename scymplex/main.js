@@ -2,7 +2,7 @@ $(document).ready(function() {
     let $Table = $("#Table > tbody");
     $.getJSON("rolls.json", function(data) {
         $.each(data, function(index, value) {
-            var tRow = "<tr><td>" + value.name + "</td><td>" + value.roll + "</td><td>" + value.pity + "</td></tr>";
+            var tRow = "<tr><td>" + value.name + "</td><td>" + value.pity + "</td><td>" + value.roll + "</td></tr>";
             $Table.append(tRow);
         });
         $('#Table').DataTable({
