@@ -1,6 +1,6 @@
 $(document).ready(function() {
     let $Table = $("#Table > tbody");
-    $.getJSON("users.json", function(data) {
+    $.getJSON("rolls.json", function(data) {
         $.each(data, function(index, value) {
             var tRow = "<tr><td>" + value.name + "</td><td>" + value.roll + "</td><td>" + value.luck + "</td></tr>";
             $Table.append(tRow);
