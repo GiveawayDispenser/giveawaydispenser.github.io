@@ -1,0 +1,37 @@
+/* The navigation bar */
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    /* Set the navbar to fixed position*/
+    position: fixed;
+    /*navbar at the top of the page */
+    top: 0;
+    /* Full width */
+    width: 100%;
+}
+
+/* Links inside the navbar */
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+/* add a top margin to avoid content overlay */
+
+.main {
+    margin-top: 70px;
+    height: 1200px;
+}
+
+/* Change the background on mouse-over */
+
+#navbar a:hover {
+    background: #ddd;
+    color: black;
+}
