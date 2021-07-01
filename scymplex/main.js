@@ -6,7 +6,7 @@ $(document).ready(function() {
             $Table.append(tRow);
         });
         $('#Table').DataTable({
-            order: [[ 1, "desc" ]],
+            order: [1,'desc'],
             pageLength: 8,
             lengthMenu: [
                 [8, 10, 20, -1],
