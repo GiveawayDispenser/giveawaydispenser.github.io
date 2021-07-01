@@ -24,7 +24,16 @@
 
 <body>
     
-    {{ page.last-modified-date | date: '%B %d, %Y' }}
+                    <form class="d-flex">
+                        <div v-if="lastUpdatedTime !== ''">
+                            <button type="button" class="btn border-light btn-dark">
+                                <strong>Updated</strong>
+                                <span class="badge bg-info">
+                                    <timeago :datetime="lastUpdatedDate" :auto-update="60"></timeago>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
     <div class="container">
         <div class="row">
             <div class="col-8 offset-md-1 mt-5">
