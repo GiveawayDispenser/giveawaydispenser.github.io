@@ -1,17 +1,7 @@
 [
     {
-        "name": "horse",
+        "name": "scymplex",
         "pity": 0,
-        "roll": 852
-    },
-    {
-        "name": "dog",
-        "pity": 0,
-        "roll": 573
-    },
-    {
-        "name": "cate",
-        "pity": 0,
-        "roll": 189
+        "roll": 416
     }
 ]
