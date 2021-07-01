@@ -11,7 +11,7 @@ $(document).ready(function() {
                 [8, 10, 20, -1],
                 [8, 10, 20, 100]
             ]
-        data_table.order( [7,'desc'] ).draw();
+        data_table.order( [1,'desc'] ).draw();
         });
     });
 
