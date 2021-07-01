@@ -6,12 +6,12 @@ $(document).ready(function() {
             $Table.append(tRow);
         });
         $('#Table').DataTable({
-            "order": [[ 1, "desc" ]],
-            pageLength: 8,
+            pageLength: 50,
             lengthMenu: [
                 [8, 10, 20, -1],
                 [8, 10, 20, 100]
             ]
+        data_table.order( [7,'desc'] ).draw();
         });
     });
 
