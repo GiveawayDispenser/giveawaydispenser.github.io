@@ -1,1 +1,17 @@
-"[{\"name\": \"me\", \"roll\": 293, \"pity\": 0}, {\"name\": \"scymplex\", \"roll\": 181, \"pity\": 3}]"
+[
+    {
+        "name": "me",
+        "pity": 0,
+        "roll": 260
+    },
+    {
+        "name": "scymplex",
+        "pity": 4,
+        "roll": 78
+    },
+    {
+        "name": "metoo",
+        "pity": 0,
+        "roll": 47
+    }
+]
