@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="speechbubbles.css">
+<link rel="stylesheet" href="code.css">
+
+<style>
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>GiveawayDispenser</h1>
+  <p>The giveaway/raffle bot that gives you increase luck each time you lose!</p>
+<p>Also known as pity/goodluckguarantee (GLG)/Bad Luck Protection (BLP)/Lucky Scuff Protection (LSP)</p>
+</div>
+
+<div id="navbar">
+  <a class="active" href="javascript:void(0)">Home</a>
+  <a href="#bot-commands">Bot Commands</a>
+  <a href="javascript:void(0)">Contact</a>
+<!-- javascript:void(0) -->
+
+</div>
+
+<div class="content">
+
+  <!--
+  old
+  ![](https://github.com/GiveawayDispenser/images/blob/23bc13927ec053abd7601275b94c2027f780d04d/broadcaster%20icon.png "Broadcaster")
+  new
+  ![](https://github.com/GiveawayDispenser/images/blob/23bc13927ec053abd7601275b94c2027f780d04d/broadcaster%20icon.png "Broadcaster")
+  old
+  #![](mod.png "Moderator")
+  new
+  #![](mod.png "Moderator")
+
+  old
+  #![](viewer.png "Viewer")
+  #![](viewer.png "Viewer")
+
+
+  -->
+  <p>This bot actually dispenses giveaways that give better luck each time you lose!</p>
+<p class="triangle-obtuse top">Some people equate this to a raffle; however raffles by definition require payment to enter, so we use the correct word instead (giveaway) since it's free to enter. Wouldn't want any &quot;small indi companies&quot; to ban us just because they saw the word raffle and assumed RMT without even investigating. English is hard.</p>
+  <p class='make-snippet'>This bot uses a system that has been called many things. Some examples would be bad luck protection, good luck guarantee, lucky scuff protection, or pity (think Genshin Impact). To make things as customizable as possible, the term for this &quot;luck&quot;, is defined as a currency which can be named anything the streamer chooses. Default is Token(s).</pclass>
+  <p>Simply put, each giveaway a user enters and does not win, they receive currency. When someone wins, they lose all of their currency.</p>
+  <h5 id="what-does-this-currency-do">What does this currency do?</h5>
+  <ul>
+  <li>Each currency you have will increase the minimum size of the dice you roll. The dice starts out rolling 0-1000. So for example, lets say you entered a giveaway and did not win, you get 1 currency. The next giveaway that you enter, instead of rolling a 0-1000 dice to determine if you win (by getting the highest roll), you would roll a 10-1000 sided dice. This effectively increases your odds of getting a higher roll. This effect stacks. So lets say you had 2 currency, you would then roll a 20-1000 sided dice, so on and so forth.</li>
+  </ul>
+  <h2 id="features">Features</h2>
+
+  <h4 id="discord-integration">Discord Integration</h4>
+  <ul>
+  <li>Upon finalizing a giveaway, all the rolls will be outputted to a designated discord channel.<br /></li>
+  <li>Streamer can request a log of all bot commands/history sent through discord in a private channel.</li>
+  </ul>
+  <h4 id="multi-winner-giveaways">Multi Winner Giveaways</h4>
+  <ul>
+  <li>Option to pick multiple winners for a single giveaway. Maybe you want to carry TWO or more people in a key!</li>
+  </ul>
+  <h4 id="cloud-hosting">Cloud Hosting</h4>
+  <ul>
+  <li>The bot is hosted in the cloud with automated backups to ensure the bot is always online.</li>
+  </ul>
+  <h4 id="overflow">Overflow</h4>
+  <ul>
+  <li>Users retain any excess currency after winning a giveaway. As an example, a user has 220 currency, and wins a giveaway. Only 100 of that was actually used to win the giveaway (to make your minimum roll the same as the maximum roll - 1000-1000). With overflow ON, this user would end up with 120 currency after winning. With overflow OFF, this user would end up with 0 currency after winning.</li>
+  </ul>
+  <h4 id="tiered-or-untiered-subluck">Tiered or Untiered Subluck</h4>
+  <ul>
+  <li>Subluck is enabled by default and can be set per tier level (1, 2 or 3). Think of this as permanent currency that can be used every time you enter a giveaway. Default is 30, 35, 40. Fully customizable.</li>
+  </ul>
+  <h4 id="winner-countdown-timer-in-chat">Winner Countdown Timer in Chat</h4>
+  <ul>
+  <li>Countdown timer in chat automatically when you use the !winner command. Locking in the winner is done manually via the !lock command to give maximum control to streamer. Starts and ends automatically by using the standard commands. Fully customizable.</li>
+  </ul>
+  <h4 id="no-luck-used-giveaways">No Luck Used Giveaways</h4>
+  <ul>
+  <li>An additional type of Giveaway that works the old fashioned way, luck is not used in any way for this type of giveaway.</li>
+  </ul>
+  <h4 id="winner-cooldown">Winner Cooldown</h4>
+  <ul>
+  <li>Prevent people from entering giveaways immediatley after winning one. Or maybe they cant do another giveaway for five giveaways after they win. Totally customizable.</li>
+  </ul>
+  <h4 id="anti-currency-farming-aka-afkreroll-penalty">Anti-Currency Farming AKA afkreroll penalty</h4>
+  <ul id="bot-commands">
+  <li>Imagine yourself in a stream that does giveaways for key carries and you are actively watching the stream from your computer at home. You have been trying all day to get into a Dungeon Finder key, but no one is inviting you. You should be rewarded for watching the stream and earning more currency to earn your next win.<br /></li>
+  <li>Now, imagine someone at work who hasn't even been trying to get into dungeon finder groups (because they can't even play the game from work), and not even watching the stream who keeps entering every giveaway KNOWING that you cannot accept the free key. They are only trying to &quot;farm&quot; extra luck aka currency for when they get home hours later and enter.<br /></li>
+  <li>Now imagine everyone at work entering every single giveaway. Every winner would have to be passed over, and everyone would get free currency. The streamer is now wasting their time having to wait for you to respond and then roll off another winner. How many people will pass on their win? This is not fair for the people who are actually entering the giveaways to WIN now, not try and farm it for later.<br /></li>
+  <li>This feature works by penalizing anyone who wins but fails to claim their winnings either because they choose not to accept or if they are afk/do not respond.</li>
+  </ul>
+  <h2>Bot Commands</h2>
+
+  <h3 id="running-a-giveaway"><strong>Running a Giveaway</strong></h3>
+  <h4>Start a Giveaway</h4>
+  <ul>
+  <li><ul>
+  <li><img src="broadcaster.png" title="Broadcaster" /> <kbd>!sg <em>keyword or phrase</em> --msg <em>giveawayitem</em></kbd> - Short for Start Giveaway. This command will start a giveaway using the keyword or phrase (yes, you can even use the !) given as the method of entering the giveaway. If no keyword or phrase is provided, then it will use the default one stored in the DB. If a keyword or phrase is provided, then it both starts a giveaway AND sets the new default keyword or phrase to that. Viewers enter the giveaway by typing just the keyword or phrase into chat. Examples: <kbd>!sg keyzz --msg Viewer Keys</kbd> <kbd>!sg keyzz</kbd> <kbd>!sg --msg M+ Carry</kbd> <kbd>!sg</kbd><br /></li>
+  </ul></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!sgnoluck <em>keyword or phrase</em> --msg <em>giveawayitem</em></kbd> - Short for Start Giveaway No Luck. Same as above but doesnt use luck in any way. See above for same options.</li>
+  </ul>
+  <h4 id="selecting-a-winner">Selecting a winner</h4>
+  <ul>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!winner <em>pardon</em></kbd> - Select one winner and stop accepting new entrants. This will announce the viewer that had the highest roll. Appending the word &quot;pardon&quot; after !winner will &quot;pardon&quot; the previous winner. A pardoned viewer will be entirely removed from the giveaway and will not incur any afkreroll penalties if they are enabled. If a winner is unable to accept the prize, simply issue another !winner command to get the next highest roll.</li>
+  </ul>
+  <h4 id="finalizing-the-giveaway">Finalizing the giveaway</h4>
+  <ul>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!lock</kbd> - Finalize the giveaway. This will lock in the last winner announced and finalize the giveaway, distributing all luck to those involved and updating the DB.<br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!lock <em>1</em></kbd> - Lock in the last winner announced, but NOT finalize the giveaway. Use this if you wish to have multiple winners in one giveaway.<br /><!---  ![](https://github.com/GiveawayDispenser/images/blob/23bc13927ec053abd7601275b94c2027f780d04d/broadcaster%20icon.png "Broadcaster") <kbd>!lock _2_</kbd> - Finalize the giveaway ONLY.  This will not lock in any winners, use !lock 1 to do that.  For example, this would be a typical use: <kbd>!winner</kbd> -> <kbd>!lock 1</kbd> -> <kbd>!winner</kbd> -> <kbd>!lock</kbd> ---><br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!cancel</kbd> - Cancel and end the current giveaway. No luck or stats will result from the giveaway. Useful if you start a giveaway on accident, as a test, or use the wrong keyword.</li>
+  </ul>
+  <blockquote>
+  <p>A typical single winner giveaway will look something like this:<br /> <code>!sg freekey - Starts the giveaway with keyword freekey.     Users would then enter the keyword to enter. !winner - Announces the winner.     The winner acknowledges that they can and will accept the free key. !lock - Locks in the winner, finalizes the giveaway, disperses any currency, and reports the giveaway rolls to discord (if configured).</code></p>
+  </blockquote>
+  <p><strong>Giveaway Utility Commands</strong></p>
+  <ul>
+  <li><img src="mod.png" title="Moderator" /> <kbd>!gcount</kbd> - Giveaway Count. This will announce in chat how many viewers are currently entered in the giveaway.<br /></li>
+  <li><img src="mod.png" title="Moderator" /> <kbd>!add <em>targetuser</em></kbd> - Add targetuser to the current giveaway if they are not entered already. This might be useful if someone asks you to enter them in the raffle while they are on discord but unable to type for example.</li>
+  </ul>
+  <p><strong>Giveaway Settings</strong></p>
+  <ul>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!setsubluck</kbd> - This will allow you to see what the values are set to as well as let you change them. Default tier values are 30 for t1, 35 for t2. 40 for t3. If you are a Tier 1 subscriber, then every giveaway entered will increase the floor (minimum) of your roll. For example instead of rolling 0-1000, you would roll 300-1000, thus increasing your odds of getting a higher roll. Example: <kbd>!setsubluck 30 35 40</kbd><br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!afk% <em>percent</em></kbd> - Announces to chat the current afkreroll penalty percent. Specify a percent to change it. Example: <kbd>!afk% 50</kbd><br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!afk$ <em>amount</em></kbd> - Announces to chat the current afkreroll penalty amount. Specify an amount to change it. Example: <kbd>!afk$ 1</kbd><br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!setcurrency <em>name</em></kbd>- Announces the name of the currency. The term for luck granted by this bot is referenced as a currency, which is something you hold on to and can be named anything you want with this command. The default name for this currency is Token(s). Example: <kbd>!setcurrency Stripper Cash</kbd><br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!confirmentry <em>phrase</em></kbd> - Gets or sets if the bot responds when someone enters a giveaway with the specified phrase. Entering phrase as 0 will stop the bot from confirming entries. Default is OFF.<br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!followeronly <em>0/1</em></kbd> Enables(1) or disables(0) follower only mode for giveaways. Use without an option to display if it's on or off.<br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!winnercooldown <em>amount</em></kbd> - Gets or sets the winner cooldown. Setting amount to 0 will disable this feature. For example, if this is set to 1, then people are unable to enter the giveaway immediatley after winning. Setting to 2, will make it so winners are unable to enter giveaway until 2 giveaways have happened since winning. Default is OFF (0).<br /></li>
+  <li><img src="broadcaster.png title="Broadcaster" /> <kbd>!winnertimer <em>0/1</em> <em>duration</em>in_seconds_</kbd> - Countdown for when a winner is slected for them to claim their winnings. Disable(0)/Enable(1). Default: DISABLED. Examples:<kbd>!winnertimer 1</kbd> to turn on the countdown timer. <kbd>!winnertimer 1 120</kbd> to enable the countdown timer AND set the duration to 120 seconds.</li>
+  </ul>
+  <p><strong>User Info/Settings</strong></p>
+  <ul>
+  <li><img src="viewer.png" title="Viewer" /> / <img src="mod.png" title="Moderator" /> <kbd>!report <em>targetuser</em></kbd> - Report to chat stats for the user issuing the command. If targetuser is specified, then it will report the stats for that user instead.<br /></li>
+  <li><img src="mod.png" title="Moderator" /> <kbd>!substatus <em>targetuser</em></kbd> - Announces in chat if targetuser is a sub, and if they are, which tier.<br /></li>
+  <li><img src="mod.png" title="Moderator" /> <kbd>!addone <em>targetuser amount</em></kbd> - Adds an amount of currency to targetuser. An amount of 0 will reset that users currency to 0. Example: <kbd>!addone scymplex 1</kbd> to give scymplex 1 currency.<br /></li>
+  <li><img src="mod.png" title="Moderator" /> <kbd>!addchat <em>amount</em></kbd> - Adds an amount of currency to everyone currently in chat (watching the stream). Example: <kbd>!addchat 1</kbd> adds 1 currency to all users in chat.</li>
+  </ul>
+  <p><strong>Bot Information</strong></p>
+  <ul>
+  <li><img src="viewer.png" title="Viewer" /> <kbd>!giveaways</kbd> - Announces information about how giveaways work with this bot.<br /></li>
+  <li><img src="viewer.png" title="Viewer" /> <kbd>!math</kbd> - Describes how the math works.<br /></li>
+  <li><img src="viewer.png" title="Viewer" /> <kbd>!overflow</kbd> - Describes how the overflow system works and if it is enabled.<br /></li>
+  <li><img src="viewer.png" title="Viewer" /> <kbd>!botversion</kbd> - Announces the current bot version along with some contact information for the author.<br /></li>
+  <li><img src="mod.png" title="Moderator" /> <kbd>!giveawaysettings</kbd> - Spits out which features are enabled.</li>
+  </ul>
+  <p><strong>Misc. Commands</strong></p>
+  <ul>
+  <li><img src="viewer.png" title="Viewer" /> <kbd>!randint</kbd> - Picks a random number from 0-1000<br /></li>
+  <li><img src="mod.png" title="Moderator" /> <kbd>!roll <em>targetuser</em></kbd> - Emulates rolling the dice as if the user was in a giveaway (with currency).<br /></li>
+  <li><img src="mod.png" title="Moderator" /> <kbd>!randomwinner</kbd> - Picks a random person currently watching the stream and announces it.</li>
+  </ul>
+  <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+
+  <p>Coming soon...</p>
+  <h2 id="possible-future-features">Possible Future Features</h2>
+
+  <ul>
+  <li><p>[ ] Giveaways that work across multiple Twitch Channels.</p></li>
+  <li><p>[ ] Settings configurable via discord buttons in addition to the already existant chat commands.</p></li>
+  <li><p>[ ] Twitch built-in Channel Redepmptions that grant currency.</p></li>
+  <li><p>[ ] Gifting subs or giving X bits gives temporary one-time use currency (with a cap).</p></li>
+  <li><p>[ ] Redeem a prize that steals currency from another random person in chat.</p></li>
+  </ul>
+  <p>✅ Countdown timer after using !winner, resets upon issuing another !winner or when you finalize the giveaway. <em>Added on 6/23/2021</em></p>
+  <p>✅ Giveaways that don't use any luck. <em>Addded on 6/23/2021</em></p>
+  <p>✅ Prevent people from winning a giveaway a second time until X giveaways have passed. Winning giveaways back to back is usually bad. <em>Added 6/21/2021</em></p>
+  <p>✅ WoW Weakaura that shows in game for viewers to see all the keys currently in the group (helpful for KSM etc.). <em>Available upon request</em></p>
+  <h2 id="contact-info">Contact Info</h2>
+
+  <p>Scymplex on <a href="https://discord.gg/7z3NEyu72n">https://discord.gg/7z3NEyu72n</a></p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
