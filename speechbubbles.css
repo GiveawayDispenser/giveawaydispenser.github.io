@@ -28,6 +28,7 @@ body {
   background:#fff;
 }
 
+/*
 a:link,
 a:visited {
   border-bottom:1px solid #c55500;
@@ -54,7 +55,7 @@ a:visited:active {
   color:#fff;
   background:#730800;
 }
-
+*/
 #container {
   width:500px;
   padding:0 0 50px;

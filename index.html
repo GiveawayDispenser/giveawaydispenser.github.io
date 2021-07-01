@@ -6,32 +6,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="stylesheet.css">
 <link rel="stylesheet" href="speechbubbles.css">
-<link rel="stylesheet" href="code.css">
-<link rel="stylesheet" href="sticky2.css">
+
+
 
 </head>
 <body>
-
-
-
-<div id="navbar">
-  <a class="active" href="javascript:void(0)">Home</a>
-    <a href="#features">Features</a>
-  <a href="#bot-commands">Bot Commands</a>
-<a href="#frequently-asked-questions">F.A.Q.</a>
-<a href="#possible-future-features">Possible Future Features</a>
-  <a href="#contact-info">Contact</a>
-</div>
-
-<!-- javascript:void(0) -->
-
-
-<div class="content" class="main">
-  <div class="header">
-    <h1>GiveawayDispenser</h1>
-    <p>The giveaway/raffle bot that gives you increase luck each time you lose!</p>
-  <p>Also known as pity/goodluckguarantee (GLG)/Bad Luck Protection (BLP)/Lucky Scuff Protection (LSP)</p>
-  </div>
+<main>
+  <nav class="floating-menu">
+    <h3>Navigation</h3>
+    <a class="active" href="#home">Home</a>
+      <a href="#features">Features</a>
+    <a href="#bot-commands">Bot Commands</a>
+  <a href="#frequently-asked-questions">F.A.Q.</a>
+  <a href="#possible-future-features">Possible Future Features</a>
+    <a href="#contact-info">Contact</a>
+  </nav>
+</main>
+<div class="content" id="home">
+  <h1>GiveawayDispenser</h1>
+  <p align="center">The giveaway/raffle bot that gives you increase luck each time you lose!</p>
+<p align="center">Also known as pity/goodluckguarantee (GLG)/Bad Luck Protection (BLP)/Lucky Scuff Protection (LSP)</p><hr>
   <!--
   old
   ![](https://github.com/GiveawayDispenser/images/blob/23bc13927ec053abd7601275b94c2027f780d04d/broadcaster%20icon.png "Broadcaster")
@@ -118,9 +112,9 @@
   <li><img src="broadcaster.png"title="Broadcaster" /> <kbd>!lock <em>1</em></kbd> - Lock in the last winner announced, but NOT finalize the giveaway. Use this if you wish to have multiple winners in one giveaway.<br /><!---  ![](https://github.com/GiveawayDispenser/images/blob/23bc13927ec053abd7601275b94c2027f780d04d/broadcaster%20icon.png "Broadcaster") <kbd>!lock _2_</kbd> - Finalize the giveaway ONLY.  This will not lock in any winners, use !lock 1 to do that.  For example, this would be a typical use: <kbd>!winner</kbd> -> <kbd>!lock 1</kbd> -> <kbd>!winner</kbd> -> <kbd>!lock</kbd> ---><br /></li>
   <li><img src="broadcaster.png"title="Broadcaster" /> <kbd>!cancel</kbd> - Cancel and end the current giveaway. No luck or stats will result from the giveaway. Useful if you start a giveaway on accident, as a test, or use the wrong keyword.</li>
   </ul>
-  <blockquote>
-  <p>A typical single winner giveaway will look something like this:<br /> <code>!sg freekey - Starts the giveaway with keyword freekey.     Users would then enter the keyword to enter. !winner - Announces the winner.     The winner acknowledges that they can and will accept the free key. !lock - Locks in the winner, finalizes the giveaway, disperses any currency, and reports the giveaway rolls to discord (if configured).</code></p>
-  </blockquote>
+
+  <p >A typical single winner giveaway will look something like this:<br /> <code style="color: #ffffff;"><kbd>!sg freekey</kbd> - Starts the giveaway with keyword freekey.</code><br> Users would then enter the keyword to enter.<br> <code style="color: #ffffff;"> <kbd>!winner</kbd> - Announces the winner.    </code><br> The winner acknowledges that they can and will accept the free key.<br><code style="color: #ffffff;">  <kbd>!lock</kbd> - Locks in the winner, finalizes the giveaway, disperses any currency, and reports the giveaway rolls to discord.</code></p>
+</codestyle>
   <p><strong>Giveaway Utility Commands</strong></p>
   <ul>
   <li><img src="mod.png" title="Moderator" /> <kbd>!gcount</kbd> - Giveaway Count. This will announce in chat how many viewers are currently entered in the giveaway.<br /></li>
