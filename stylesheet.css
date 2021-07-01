@@ -14,6 +14,25 @@ body {
 	padding: 0 20px;
 	box-sizing: border-box;
 }
+
+.floating-menu {
+	font-family: sans-serif;
+	background: black;
+	padding: 5px;;
+	width: 130px;
+	z-index: 100;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+.floating-menu a,
+.floating-menu h3 {
+	font-size: 0.9em;
+	display: block;
+	margin: 0 0.5em;
+	color: white;
+}
 code {
 	background: #fff1;
 	font-family: 'Inconsolata', monospace;
