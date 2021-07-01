@@ -1,12 +1,22 @@
 [
     {
-        "name": "scymplex",
-        "pity": 5,
-        "roll": 779
+        "name": "dinnertime",
+        "pity": 0,
+        "roll": 717
     },
     {
-        "name": "notme",
+        "name": "dailies",
         "pity": 0,
-        "roll": 533
+        "roll": 658
+    },
+    {
+        "name": "neverland",
+        "pity": 0,
+        "roll": 398
+    },
+    {
+        "name": "scymplex",
+        "pity": 0,
+        "roll": 204
     }
 ]
