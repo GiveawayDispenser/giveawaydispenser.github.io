@@ -1,17 +1,12 @@
 [
     {
-        "name": "me",
-        "pity": 0,
-        "roll": 260
-    },
-    {
         "name": "scymplex",
-        "pity": 4,
-        "roll": 78
+        "pity": 5,
+        "roll": 779
     },
     {
-        "name": "metoo",
+        "name": "notme",
         "pity": 0,
-        "roll": 47
+        "roll": 533
     }
 ]
