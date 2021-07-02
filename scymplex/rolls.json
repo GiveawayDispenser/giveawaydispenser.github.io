@@ -1,52 +1,27 @@
 [
     {
-        "name": "loser",
-        "pity": 3,
-        "roll": 942
+        "name": "tester",
+        "pity": 1,
+        "roll": 805
     },
     {
-        "name": "discodiscotv",
-        "pity": 5,
-        "roll": 862
+        "name": "dreamy",
+        "pity": 0,
+        "roll": 614
     },
     {
-        "name": "kobarz_tv",
+        "name": "disco",
         "pity": 2,
-        "roll": 613
+        "roll": 440
     },
     {
         "name": "scymplex",
+        "pity": 1,
+        "roll": 189
+    },
+    {
+        "name": "nevergonnawin",
         "pity": 0,
-        "roll": 566
-    },
-    {
-        "name": "rufflesclub",
-        "pity": 2,
-        "roll": 457
-    },
-    {
-        "name": "hyppieelf",
-        "pity": 0,
-        "roll": 362
-    },
-    {
-        "name": "markm0591",
-        "pity": 2,
-        "roll": 298
-    },
-    {
-        "name": "disco_baskets",
-        "pity": 2,
-        "roll": 264
-    },
-    {
-        "name": "tester",
-        "pity": 0,
-        "roll": 245
-    },
-    {
-        "name": "dreamer",
-        "pity": 2,
-        "roll": 163
+        "roll": 156
     }
 ]
