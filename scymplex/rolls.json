@@ -1,47 +1,52 @@
 [
     {
-        "name": "discodiscoau",
-        "pity": 0,
-        "roll": 635
-    },
-    {
-        "name": "hyppieelf",
-        "pity": 2,
-        "roll": 513
-    },
-    {
-        "name": "scymplex",
-        "pity": 1,
-        "roll": 492
-    },
-    {
-        "name": "rufflesclub",
-        "pity": 1,
-        "roll": 425
-    },
-    {
-        "name": "kobarz_tv",
-        "pity": 1,
-        "roll": 330
-    },
-    {
-        "name": "disco_baskets",
-        "pity": 1,
-        "roll": 223
-    },
-    {
-        "name": "markm0591",
-        "pity": 1,
-        "roll": 212
+        "name": "loser",
+        "pity": 3,
+        "roll": 942
     },
     {
         "name": "discodiscotv",
-        "pity": 4,
-        "roll": 73
+        "pity": 5,
+        "roll": 862
+    },
+    {
+        "name": "kobarz_tv",
+        "pity": 2,
+        "roll": 613
+    },
+    {
+        "name": "scymplex",
+        "pity": 0,
+        "roll": 566
+    },
+    {
+        "name": "rufflesclub",
+        "pity": 2,
+        "roll": 457
+    },
+    {
+        "name": "hyppieelf",
+        "pity": 0,
+        "roll": 362
+    },
+    {
+        "name": "markm0591",
+        "pity": 2,
+        "roll": 298
+    },
+    {
+        "name": "disco_baskets",
+        "pity": 2,
+        "roll": 264
+    },
+    {
+        "name": "tester",
+        "pity": 0,
+        "roll": 245
     },
     {
         "name": "dreamer",
-        "pity": 1,
-        "roll": 47
+        "pity": 2,
+        "roll": 163
     }
 ]
