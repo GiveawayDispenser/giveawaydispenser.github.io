@@ -1,27 +1,12 @@
 [
     {
-        "name": "tester",
-        "pity": 0,
-        "roll": 724
-    },
-    {
         "name": "scymplex",
-        "pity": 1,
-        "roll": 569
+        "pity": 2,
+        "roll": 509
     },
     {
-        "name": "disco",
-        "pity": 1,
-        "roll": 361
-    },
-    {
-        "name": "airels",
-        "pity": 12,
-        "roll": 339
-    },
-    {
-        "name": "markm",
+        "name": "cash",
         "pity": 0,
-        "roll": 159
+        "roll": 233
     }
 ]
