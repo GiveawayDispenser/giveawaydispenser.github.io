@@ -3,7 +3,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
 	margin: 0;
 	padding: 0;
 }
-html, body { min-height: 100%; margin-left: 10%;margin-right: 10%}
+html, body { min-height: 100%; margin-left: 15%;margin-right: 15%}
 
 
 p > code,
