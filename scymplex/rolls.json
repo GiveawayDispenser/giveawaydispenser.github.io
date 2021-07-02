@@ -1,27 +1,22 @@
 [
     {
-        "name": "tester",
-        "pity": 1,
-        "roll": 805
-    },
-    {
-        "name": "dreamy",
-        "pity": 0,
-        "roll": 614
-    },
-    {
-        "name": "disco",
-        "pity": 2,
-        "roll": 440
+        "name": "markm0591",
+        "pity": 3,
+        "roll": 1000
     },
     {
         "name": "scymplex",
-        "pity": 1,
-        "roll": 189
+        "pity": 2,
+        "roll": 787
     },
     {
-        "name": "nevergonnawin",
+        "name": "rufflesclub",
+        "pity": 3,
+        "roll": 457
+    },
+    {
+        "name": "discodiscotv",
         "pity": 0,
-        "roll": 156
+        "roll": 20
     }
 ]
