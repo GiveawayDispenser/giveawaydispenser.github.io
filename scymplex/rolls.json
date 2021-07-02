@@ -1,7 +1,27 @@
 [
     {
-        "name": "scymplex",
+        "name": "tester",
         "pity": 0,
-        "roll": 809
+        "roll": 724
+    },
+    {
+        "name": "scymplex",
+        "pity": 1,
+        "roll": 569
+    },
+    {
+        "name": "disco",
+        "pity": 1,
+        "roll": 361
+    },
+    {
+        "name": "airels",
+        "pity": 12,
+        "roll": 339
+    },
+    {
+        "name": "markm",
+        "pity": 0,
+        "roll": 159
     }
 ]
