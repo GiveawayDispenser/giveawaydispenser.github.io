@@ -1,52 +1,47 @@
 [
     {
+        "name": "discodiscoau",
+        "pity": 0,
+        "roll": 635
+    },
+    {
+        "name": "hyppieelf",
+        "pity": 2,
+        "roll": 513
+    },
+    {
+        "name": "scymplex",
+        "pity": 1,
+        "roll": 492
+    },
+    {
+        "name": "rufflesclub",
+        "pity": 1,
+        "roll": 425
+    },
+    {
+        "name": "kobarz_tv",
+        "pity": 1,
+        "roll": 330
+    },
+    {
+        "name": "disco_baskets",
+        "pity": 1,
+        "roll": 223
+    },
+    {
+        "name": "markm0591",
+        "pity": 1,
+        "roll": 212
+    },
+    {
         "name": "discodiscotv",
         "pity": 4,
-        "roll": 982
+        "roll": 73
     },
     {
         "name": "dreamer",
         "pity": 1,
-        "roll": 863
-    },
-    {
-        "name": "tester",
-        "pity": 0,
-        "roll": 731
-    },
-    {
-        "name": "kobarz_tv",
-        "pity": 0,
-        "roll": 659
-    },
-    {
-        "name": "rufflesclub",
-        "pity": 0,
-        "roll": 611
-    },
-    {
-        "name": "loser",
-        "pity": 2,
-        "roll": 521
-    },
-    {
-        "name": "disco_baskets",
-        "pity": 0,
-        "roll": 494
-    },
-    {
-        "name": "hyppieelf",
-        "pity": 1,
-        "roll": 224
-    },
-    {
-        "name": "scymplex",
-        "pity": 0,
-        "roll": 130
-    },
-    {
-        "name": "markm0591",
-        "pity": 0,
-        "roll": 18
+        "roll": 47
     }
 ]
