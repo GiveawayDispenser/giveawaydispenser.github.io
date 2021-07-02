@@ -27,6 +27,24 @@
       background-color: #9400D3;
       background-repeat: repeat;
     }
+    .glow {
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+
+
     div {
       background-color: #ffffff;
     }
@@ -45,8 +63,8 @@
                 <tr>
 <th>  <img src="http://giveawaydispenser.github.io/images/winner600.png" style="float:left"></th>
 <th>&nbsp;</th><th><br><br>
-  <h3 align="center">  Winner(s): tester</h3><hr>
-            <h5 align="center">  Winner(s) unable to confirm: discodiscotv, dreamer</h5>
+  <h3 align="center">  Winner(s): <pre  class="glow">hyppieelf, scymplex</pre></h3><hr>
+            <h5 align="center">  Winner(s) unable to confirm: discodiscoau</h5>
 </th></td>
             </table>
                 <table class="table table-striped table-bordered  table-responsive-lg " id="Table">
