@@ -1,17 +1,17 @@
 [
     {
         "name": "scymplex",
-        "pity": 2,
-        "roll": 615
-    },
-    {
-        "name": "loser",
-        "pity": 3,
-        "roll": 573
-    },
-    {
-        "name": "tester",
         "pity": 0,
-        "roll": 374
+        "roll": 869
+    },
+    {
+        "name": "testuser",
+        "pity": 0,
+        "roll": 691
+    },
+    {
+        "name": "anothertest",
+        "pity": 0,
+        "roll": 122
     }
 ]
