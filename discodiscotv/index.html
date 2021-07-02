@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://giveawaydispenser.github.io/images/diceicon.ico"/>
+    <title>Rolls</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="main.js"></script>
+    <style>
+        table {
+            table-layout: fixed;
+            word-wrap: break-word;
+        }
+    </style>
+    <style>
+    body {
+      background-image: url("http://giveawaydispenser.github.io/images/twitchtiny.png");
+      background-color: #9400D3;
+      background-repeat: repeat;
+    }
+    .glow {
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+
+
+    div {
+      background-color: #999999;
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" >
+        <div class="row">
+            <div class="col-16 offset-md-0 mt-3">
+
+
+              <table>
+
+                <tr>
+<th>  <img src="http://giveawaydispenser.github.io/images/winner600.png" style="float:left"></th>
+<th>&nbsp;</th><th><br><br>
+  <p align=left style="background-color:lime;
+  color:black;
+  border-radius:4px;
+  font-size:24px;
+  padding:15px;
+  margin:5px;"><b>  Winner(s): discodiscotv</b></p><hr>
+    <p align=left style="background-color:gray;
+    color:black;
+    border-radius:4px;
+    font-size:24px;
+    padding:15px;
+    margin:5px;"><b>  Winner(s) unable to confirm: </b></p>
+</th></td>
+            </table>
+                <table class="table table-striped table-bordered  table-responsive-lg " id="Table">
+                    <thead  style="background-color:red;">
+                        <tr>
+                            <th class="bg-success text-white">Name</th>
+                            <th class="bg-success text-white">Roll</th>
+                            <th class="bg-success text-white">token(s)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbodystyle>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
