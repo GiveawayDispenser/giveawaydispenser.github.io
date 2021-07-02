@@ -6,13 +6,9 @@ $(document).ready(function() {
             $Table.append(tRow);
         });
         $('#Table').DataTable({
-            order: [1,'desc'].
-            pageLength: 50,
-            lengthMenu: [
-                [8, 10, 20, -1],
-                [8, 10, 20, 100]
-            ]
-
+            order: [1,'desc'],
+            paging: false,
+            
         });
     });
 
