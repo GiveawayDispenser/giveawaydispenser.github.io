@@ -7,11 +7,8 @@ $(document).ready(function() {
         });
         $('#Table').DataTable({
             order: [1,'desc'],
-            pageLength: 8,
-            lengthMenu: [
-                [8, 10, 20, -1],
-                [8, 10, 20, 100]
-            ]
+            paging: false,
+            
         });
     });
 
