@@ -1,7 +1,52 @@
 [
     {
+        "name": "discodiscotv",
+        "pity": 4,
+        "roll": 982
+    },
+    {
+        "name": "dreamer",
+        "pity": 1,
+        "roll": 863
+    },
+    {
+        "name": "tester",
+        "pity": 0,
+        "roll": 731
+    },
+    {
+        "name": "kobarz_tv",
+        "pity": 0,
+        "roll": 659
+    },
+    {
+        "name": "rufflesclub",
+        "pity": 0,
+        "roll": 611
+    },
+    {
+        "name": "loser",
+        "pity": 2,
+        "roll": 521
+    },
+    {
+        "name": "disco_baskets",
+        "pity": 0,
+        "roll": 494
+    },
+    {
+        "name": "hyppieelf",
+        "pity": 1,
+        "roll": 224
+    },
+    {
         "name": "scymplex",
         "pity": 0,
-        "roll": 283
+        "roll": 130
+    },
+    {
+        "name": "markm0591",
+        "pity": 0,
+        "roll": 18
     }
 ]
