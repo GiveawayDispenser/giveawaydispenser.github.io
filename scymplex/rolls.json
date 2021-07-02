@@ -1,17 +1,22 @@
 [
     {
+        "name": "dreamer",
+        "pity": 3,
+        "roll": 783
+    },
+    {
         "name": "scymplex",
         "pity": 0,
-        "roll": 869
+        "roll": 515
     },
     {
-        "name": "testuser",
+        "name": "happyfeet",
         "pity": 0,
-        "roll": 691
+        "roll": 392
     },
     {
-        "name": "anothertest",
+        "name": "anotherviewer",
         "pity": 0,
-        "roll": 122
+        "roll": 379
     }
 ]
