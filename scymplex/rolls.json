@@ -1,7 +1,37 @@
 [
     {
+        "name": "tester",
+        "pity": 1,
+        "roll": 679
+    },
+    {
+        "name": "markm0591",
+        "pity": 0,
+        "roll": 673
+    },
+    {
         "name": "scymplex",
         "pity": 0,
-        "roll": 429
+        "roll": 632
+    },
+    {
+        "name": "kobarz_tv",
+        "pity": 0,
+        "roll": 591
+    },
+    {
+        "name": "disco_baskets",
+        "pity": 3,
+        "roll": 398
+    },
+    {
+        "name": "rufflesclub",
+        "pity": 0,
+        "roll": 318
+    },
+    {
+        "name": "discodiscotv",
+        "pity": 1,
+        "roll": 74
     }
 ]
