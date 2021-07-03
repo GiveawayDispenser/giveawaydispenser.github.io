@@ -2,6 +2,26 @@
     {
         "name": "scymplex",
         "pity": 0,
-        "roll": 229
+        "roll": 618
+    },
+    {
+        "name": "loser",
+        "pity": 4,
+        "roll": 508
+    },
+    {
+        "name": "tester",
+        "pity": 2,
+        "roll": 152
+    },
+    {
+        "name": "winner",
+        "pity": 0,
+        "roll": 143
+    },
+    {
+        "name": "dreamer",
+        "pity": 3,
+        "roll": 40
     }
 ]
