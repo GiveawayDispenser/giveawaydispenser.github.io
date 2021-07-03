@@ -1,27 +1,7 @@
 [
     {
-        "name": "test2",
-        "pity": 1,
-        "roll": 649
-    },
-    {
-        "name": "test",
-        "pity": 0,
-        "roll": 369
-    },
-    {
         "name": "scymplex",
         "pity": 0,
-        "roll": 246
-    },
-    {
-        "name": "tester",
-        "pity": 1,
-        "roll": 202
-    },
-    {
-        "name": "noone",
-        "pity": 0,
-        "roll": 163
+        "roll": 213
     }
 ]
